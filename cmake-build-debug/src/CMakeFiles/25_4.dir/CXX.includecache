@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/all_functions.h
+
+D:/Programming/c++/25.4/src/main.cpp
+iostream
+-
+vector
+-
+fstream
+-
+string
+-
+cstdlib
+-
+map
+-
+ctime
+-
+iomanip
+-
+all_functions.h
+D:/Programming/c++/25.4/src/all_functions.h
+
+D:/Programming/c++/25.4/src/standard.cpp
+iostream
+-
+all_functions.h
+D:/Programming/c++/25.4/src/all_functions.h
+
+D:/Programming/c++/25.4/src/surgeon.cpp
+iostream
+-
+all_functions.h
+D:/Programming/c++/25.4/src/all_functions.h
+

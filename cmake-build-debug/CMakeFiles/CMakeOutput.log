@@ -28,22 +28,22 @@ The CXX compiler identification is Clang, found in "D:/Programming/c++/skill_box
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/Programming/c++/skill_box/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_cf1e7\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_cf1e7.dir\build.make /nologo -L                  CMakeFiles\cmTC_cf1e7.dir\build
-Building C object CMakeFiles/cmTC_cf1e7.dir/CMakeCCompilerABI.c.obj
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe @C:\Users\User\AppData\Local\Temp\nm65.tmp
-Linking C executable cmTC_cf1e7.exe
-	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_cf1e7.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\lld-link.exe /nologo @CMakeFiles\cmTC_cf1e7.dir\objects1.rsp @C:\Users\User\AppData\Local\Temp\nm131.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_a3ac4\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_a3ac4.dir\build.make /nologo -L                  CMakeFiles\cmTC_a3ac4.dir\build
+Building C object CMakeFiles/cmTC_a3ac4.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe @C:\Users\User\AppData\Local\Temp\nmDCF5.tmp
+Linking C executable cmTC_a3ac4.exe
+	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_a3ac4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\lld-link.exe /nologo @CMakeFiles\cmTC_a3ac4.dir\objects1.rsp @C:\Users\User\AppData\Local\Temp\nmDD83.tmp
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/Programming/c++/skill_box/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_267d6\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_267d6.dir\build.make /nologo -L                  CMakeFiles\cmTC_267d6.dir\build
-Building CXX object CMakeFiles/cmTC_267d6.dir/CMakeCXXCompilerABI.cpp.obj
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe @C:\Users\User\AppData\Local\Temp\nm4F8.tmp
-Linking CXX executable cmTC_267d6.exe
-	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_267d6.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\lld-link.exe /nologo @CMakeFiles\cmTC_267d6.dir\objects1.rsp @C:\Users\User\AppData\Local\Temp\nm557.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_89fe6\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_89fe6.dir\build.make /nologo -L                  CMakeFiles\cmTC_89fe6.dir\build
+Building CXX object CMakeFiles/cmTC_89fe6.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe @C:\Users\User\AppData\Local\Temp\nmE0BE.tmp
+Linking CXX executable cmTC_89fe6.exe
+	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_89fe6.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\lld-link.exe /nologo @CMakeFiles\cmTC_89fe6.dir\objects1.rsp @C:\Users\User\AppData\Local\Temp\nmE13C.tmp
 
 
 
@@ -52,11 +52,11 @@ Linking CXX executable cmTC_267d6.exe
 Detecting CXX [-std:c++14] compiler features compiled with the following output:
 Change Dir: D:/Programming/c++/skill_box/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_08093\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_08093.dir\build.make /nologo -L                  CMakeFiles\cmTC_08093.dir\build
-Building CXX object CMakeFiles/cmTC_08093.dir/feature_tests.cxx.obj
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe @C:\Users\User\AppData\Local\Temp\nm835.tmp
-Linking CXX executable cmTC_08093.exe
-	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_08093.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\lld-link.exe /nologo @CMakeFiles\cmTC_08093.dir\objects1.rsp @C:\Users\User\AppData\Local\Temp\nm8A3.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_03369\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_03369.dir\build.make /nologo -L                  CMakeFiles\cmTC_03369.dir\build
+Building CXX object CMakeFiles/cmTC_03369.dir/feature_tests.cxx.obj
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe @C:\Users\User\AppData\Local\Temp\nmE542.tmp
+Linking CXX executable cmTC_03369.exe
+	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_03369.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\lld-link.exe /nologo @CMakeFiles\cmTC_03369.dir\objects1.rsp @C:\Users\User\AppData\Local\Temp\nmE63D.tmp
 
 
 
@@ -121,11 +121,11 @@ Linking CXX executable cmTC_08093.exe
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: D:/Programming/c++/skill_box/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_edfde\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_edfde.dir\build.make /nologo -L                  CMakeFiles\cmTC_edfde.dir\build
-Building CXX object CMakeFiles/cmTC_edfde.dir/feature_tests.cxx.obj
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe @C:\Users\User\AppData\Local\Temp\nmC4B.tmp
-Linking CXX executable cmTC_edfde.exe
-	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_edfde.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\lld-link.exe /nologo @CMakeFiles\cmTC_edfde.dir\objects1.rsp @C:\Users\User\AppData\Local\Temp\nmCC9.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_5abf8\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_5abf8.dir\build.make /nologo -L                  CMakeFiles\cmTC_5abf8.dir\build
+Building CXX object CMakeFiles/cmTC_5abf8.dir/feature_tests.cxx.obj
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe @C:\Users\User\AppData\Local\Temp\nmEB6C.tmp
+Linking CXX executable cmTC_5abf8.exe
+	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_5abf8.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\lld-link.exe /nologo @CMakeFiles\cmTC_5abf8.dir\objects1.rsp @C:\Users\User\AppData\Local\Temp\nmEBFA.tmp
 
 
 

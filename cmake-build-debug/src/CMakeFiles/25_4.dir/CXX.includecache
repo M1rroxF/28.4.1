@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
-../include/all_functions.h
+../include/Tracks.h
 
-D:/Programming/c++/25.4/src/main.cpp
+../include/music.h
+iostream
+-
+vector
+-
+cstdlib
+-
+Tracks.h
+../include/Tracks.h
+
+D:/Programming/c++/skill_box/src/main.cpp
 iostream
 -
 vector
@@ -25,18 +35,6 @@ ctime
 -
 iomanip
 -
-all_functions.h
-D:/Programming/c++/25.4/src/all_functions.h
-
-D:/Programming/c++/25.4/src/standard.cpp
-iostream
--
-all_functions.h
-D:/Programming/c++/25.4/src/all_functions.h
-
-D:/Programming/c++/25.4/src/surgeon.cpp
-iostream
--
-all_functions.h
-D:/Programming/c++/25.4/src/all_functions.h
+music.h
+D:/Programming/c++/skill_box/src/music.h
 

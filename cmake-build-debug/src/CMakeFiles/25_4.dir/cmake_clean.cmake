@@ -3,9 +3,7 @@ file(REMOVE_RECURSE
   "25_4.exe.manifest"
   "25_4.lib"
   "25_4.pdb"
-  "CMakeFiles/25_4.dir/Track.cpp.obj"
   "CMakeFiles/25_4.dir/main.cpp.obj"
-  "CMakeFiles/25_4.dir/music.cpp.obj"
 )
 
 # Per-language clean rules from dependency scanning.

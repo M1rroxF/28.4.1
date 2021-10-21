@@ -80,71 +80,17 @@ src\CMakeFiles\25_4.dir\main.cpp.s: cmake_force
 <<
 	cd D:\Programming\c++\skill_box\cmake-build-debug
 
-src\CMakeFiles\25_4.dir\music.cpp.obj: src\CMakeFiles\25_4.dir\flags.make
-src\CMakeFiles\25_4.dir\music.cpp.obj: ..\src\music.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skill_box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/25_4.dir/music.cpp.obj"
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe @<<
- /nologo -TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\25_4.dir\music.cpp.obj /FdCMakeFiles\25_4.dir\ -c -- D:\Programming\c++\skill_box\src\music.cpp
-<<
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-
-src\CMakeFiles\25_4.dir\music.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/25_4.dir/music.cpp.i"
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe > CMakeFiles\25_4.dir\music.cpp.i @<<
- /nologo -TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\c++\skill_box\src\music.cpp
-<<
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-
-src\CMakeFiles\25_4.dir\music.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/25_4.dir/music.cpp.s"
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe @<<
- /nologo -TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\25_4.dir\music.cpp.s /c D:\Programming\c++\skill_box\src\music.cpp
-<<
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-
-src\CMakeFiles\25_4.dir\Track.cpp.obj: src\CMakeFiles\25_4.dir\flags.make
-src\CMakeFiles\25_4.dir\Track.cpp.obj: ..\src\Track.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programming\c++\skill_box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/25_4.dir/Track.cpp.obj"
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe @<<
- /nologo -TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\25_4.dir\Track.cpp.obj /FdCMakeFiles\25_4.dir\ -c -- D:\Programming\c++\skill_box\src\Track.cpp
-<<
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-
-src\CMakeFiles\25_4.dir\Track.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/25_4.dir/Track.cpp.i"
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe > CMakeFiles\25_4.dir\Track.cpp.i @<<
- /nologo -TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programming\c++\skill_box\src\Track.cpp
-<<
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-
-src\CMakeFiles\25_4.dir\Track.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/25_4.dir/Track.cpp.s"
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\clang-cl.exe @<<
- /nologo -TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\25_4.dir\Track.cpp.s /c D:\Programming\c++\skill_box\src\Track.cpp
-<<
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-
 # Object files for target 25_4
 25_4_OBJECTS = \
-"CMakeFiles\25_4.dir\main.cpp.obj" \
-"CMakeFiles\25_4.dir\music.cpp.obj" \
-"CMakeFiles\25_4.dir\Track.cpp.obj"
+"CMakeFiles\25_4.dir\main.cpp.obj"
 
 # External object files for target 25_4
 25_4_EXTERNAL_OBJECTS =
 
 src\25_4.exe: src\CMakeFiles\25_4.dir\main.cpp.obj
-src\25_4.exe: src\CMakeFiles\25_4.dir\music.cpp.obj
-src\25_4.exe: src\CMakeFiles\25_4.dir\Track.cpp.obj
 src\25_4.exe: src\CMakeFiles\25_4.dir\build.make
 src\25_4.exe: src\CMakeFiles\25_4.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Programming\c++\skill_box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 25_4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Programming\c++\skill_box\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 25_4.exe"
 	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 	"D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\25_4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\Llvm\bin\lld-link.exe /nologo @CMakeFiles\25_4.dir\objects1.rsp @<<
  /out:25_4.exe /implib:25_4.lib /pdb:D:\Programming\c++\skill_box\cmake-build-debug\src\25_4.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 

@@ -70,19 +70,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Programming/c++/skill_box/include/Track.h">
+		<Unit filename="D:/Programming/c++/skill_box/include/Tracks.h">
 			<Option target="25_4"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skill_box/include/music.h">
 			<Option target="25_4"/>
 		</Unit>
-		<Unit filename="D:/Programming/c++/skill_box/src/Track.cpp">
-			<Option target="25_4"/>
-		</Unit>
 		<Unit filename="D:/Programming/c++/skill_box/src/main.cpp">
-			<Option target="25_4"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skill_box/src/music.cpp">
 			<Option target="25_4"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skill_box/CMakeLists.txt">

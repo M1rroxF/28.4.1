@@ -133,36 +133,6 @@ src\CMakeFiles\25_4.dir\rule:
 	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : 25_4\fast
 
-Track.obj: Track.cpp.obj
-.PHONY : Track.obj
-
-# target to build an object file
-Track.cpp.obj:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\Track.cpp.obj
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-.PHONY : Track.cpp.obj
-
-Track.i: Track.cpp.i
-.PHONY : Track.i
-
-# target to preprocess a source file
-Track.cpp.i:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\Track.cpp.i
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-.PHONY : Track.cpp.i
-
-Track.s: Track.cpp.s
-.PHONY : Track.s
-
-# target to generate assembly for a file
-Track.cpp.s:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\Track.cpp.s
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-.PHONY : Track.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -193,36 +163,6 @@ main.cpp.s:
 	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : main.cpp.s
 
-music.obj: music.cpp.obj
-.PHONY : music.obj
-
-# target to build an object file
-music.cpp.obj:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\music.cpp.obj
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-.PHONY : music.cpp.obj
-
-music.i: music.cpp.i
-.PHONY : music.i
-
-# target to preprocess a source file
-music.cpp.i:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\music.cpp.i
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-.PHONY : music.cpp.i
-
-music.s: music.cpp.s
-.PHONY : music.s
-
-# target to generate assembly for a file
-music.cpp.s:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\music.cpp.s
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-.PHONY : music.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -232,15 +172,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 25_4
-	@echo ... Track.obj
-	@echo ... Track.i
-	@echo ... Track.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... music.obj
-	@echo ... music.i
-	@echo ... music.s
 .PHONY : help
 
 

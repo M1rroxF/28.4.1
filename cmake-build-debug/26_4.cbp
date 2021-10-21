@@ -70,10 +70,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Programming/c++/skill_box/include/Tracks.h">
-			<Option target="25_4"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skill_box/include/music.h">
+		<Unit filename="D:/Programming/c++/skill_box/include/Phone.h">
 			<Option target="25_4"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skill_box/src/main.cpp">

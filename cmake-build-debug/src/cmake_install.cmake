@@ -1,4 +1,4 @@
-# Install script for directory: D:/Programming/c++/25.4/src
+# Install script for directory: D:/Programming/c++/skill_box/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

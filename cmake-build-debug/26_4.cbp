@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="25_4"/>
+		<Option title="26_4"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
 		<Option virtualFolders="CMake Files\;CMake Files\src\;"/>
@@ -70,16 +70,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Programming/c++/skill_box/include/all_functions.h">
+		<Unit filename="D:/Programming/c++/skill_box/include/Track.h">
+			<Option target="25_4"/>
+		</Unit>
+		<Unit filename="D:/Programming/c++/skill_box/include/music.h">
+			<Option target="25_4"/>
+		</Unit>
+		<Unit filename="D:/Programming/c++/skill_box/src/Track.cpp">
 			<Option target="25_4"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skill_box/src/main.cpp">
 			<Option target="25_4"/>
 		</Unit>
-		<Unit filename="D:/Programming/c++/skill_box/src/standard.cpp">
-			<Option target="25_4"/>
-		</Unit>
-		<Unit filename="D:/Programming/c++/skill_box/src/surgeon.cpp">
+		<Unit filename="D:/Programming/c++/skill_box/src/music.cpp">
 			<Option target="25_4"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skill_box/CMakeLists.txt">

@@ -46,10 +46,10 @@ RM = "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Programming\c++\25.4
+CMAKE_SOURCE_DIR = D:\Programming\c++\skill_box
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Programming\c++\25.4\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Programming\c++\skill_box\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,18 +76,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd D:\Programming\c++\25.4\cmake-build-debug
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programming\c++\25.4\cmake-build-debug\CMakeFiles D:\Programming\c++\25.4\cmake-build-debug\src\\CMakeFiles\progress.marks
+	cd D:\Programming\c++\skill_box\cmake-build-debug
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programming\c++\skill_box\cmake-build-debug\CMakeFiles D:\Programming\c++\skill_box\cmake-build-debug\src\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\all
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programming\c++\25.4\cmake-build-debug\CMakeFiles 0
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programming\c++\skill_box\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd D:\Programming\c++\25.4\cmake-build-debug
+	cd D:\Programming\c++\skill_box\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\clean
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : clean
 
 # The main clean target
@@ -96,30 +96,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd D:\Programming\c++\25.4\cmake-build-debug
+	cd D:\Programming\c++\skill_box\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\preinstall
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd D:\Programming\c++\25.4\cmake-build-debug
+	cd D:\Programming\c++\skill_box\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\preinstall
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd D:\Programming\c++\25.4\cmake-build-debug
+	cd D:\Programming\c++\skill_box\cmake-build-debug
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : depend
 
 # Convenience name for target.
 src\CMakeFiles\25_4.dir\rule:
-	cd D:\Programming\c++\25.4\cmake-build-debug
+	cd D:\Programming\c++\skill_box\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\rule
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : src\CMakeFiles\25_4.dir\rule
 
 # Convenience name for target.
@@ -128,19 +128,49 @@ src\CMakeFiles\25_4.dir\rule:
 
 # fast build rule for target.
 25_4\fast:
-	cd D:\Programming\c++\25.4\cmake-build-debug
+	cd D:\Programming\c++\skill_box\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\build
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : 25_4\fast
+
+Track.obj: Track.cpp.obj
+.PHONY : Track.obj
+
+# target to build an object file
+Track.cpp.obj:
+	cd D:\Programming\c++\skill_box\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\Track.cpp.obj
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+.PHONY : Track.cpp.obj
+
+Track.i: Track.cpp.i
+.PHONY : Track.i
+
+# target to preprocess a source file
+Track.cpp.i:
+	cd D:\Programming\c++\skill_box\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\Track.cpp.i
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+.PHONY : Track.cpp.i
+
+Track.s: Track.cpp.s
+.PHONY : Track.s
+
+# target to generate assembly for a file
+Track.cpp.s:
+	cd D:\Programming\c++\skill_box\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\Track.cpp.s
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+.PHONY : Track.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd D:\Programming\c++\25.4\cmake-build-debug
+	cd D:\Programming\c++\skill_box\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\main.cpp.obj
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -148,9 +178,9 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd D:\Programming\c++\25.4\cmake-build-debug
+	cd D:\Programming\c++\skill_box\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\main.cpp.i
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -158,70 +188,40 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd D:\Programming\c++\25.4\cmake-build-debug
+	cd D:\Programming\c++\skill_box\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\main.cpp.s
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : main.cpp.s
 
-standard.obj: standard.cpp.obj
-.PHONY : standard.obj
+music.obj: music.cpp.obj
+.PHONY : music.obj
 
 # target to build an object file
-standard.cpp.obj:
-	cd D:\Programming\c++\25.4\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\standard.cpp.obj
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
-.PHONY : standard.cpp.obj
+music.cpp.obj:
+	cd D:\Programming\c++\skill_box\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\music.cpp.obj
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+.PHONY : music.cpp.obj
 
-standard.i: standard.cpp.i
-.PHONY : standard.i
-
-# target to preprocess a source file
-standard.cpp.i:
-	cd D:\Programming\c++\25.4\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\standard.cpp.i
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
-.PHONY : standard.cpp.i
-
-standard.s: standard.cpp.s
-.PHONY : standard.s
-
-# target to generate assembly for a file
-standard.cpp.s:
-	cd D:\Programming\c++\25.4\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\standard.cpp.s
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
-.PHONY : standard.cpp.s
-
-surgeon.obj: surgeon.cpp.obj
-.PHONY : surgeon.obj
-
-# target to build an object file
-surgeon.cpp.obj:
-	cd D:\Programming\c++\25.4\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\surgeon.cpp.obj
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
-.PHONY : surgeon.cpp.obj
-
-surgeon.i: surgeon.cpp.i
-.PHONY : surgeon.i
+music.i: music.cpp.i
+.PHONY : music.i
 
 # target to preprocess a source file
-surgeon.cpp.i:
-	cd D:\Programming\c++\25.4\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\surgeon.cpp.i
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
-.PHONY : surgeon.cpp.i
+music.cpp.i:
+	cd D:\Programming\c++\skill_box\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\music.cpp.i
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+.PHONY : music.cpp.i
 
-surgeon.s: surgeon.cpp.s
-.PHONY : surgeon.s
+music.s: music.cpp.s
+.PHONY : music.s
 
 # target to generate assembly for a file
-surgeon.cpp.s:
-	cd D:\Programming\c++\25.4\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\surgeon.cpp.s
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
-.PHONY : surgeon.cpp.s
+music.cpp.s:
+	cd D:\Programming\c++\skill_box\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\25_4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\25_4.dir\music.cpp.s
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+.PHONY : music.cpp.s
 
 # Help Target
 help:
@@ -232,15 +232,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 25_4
+	@echo ... Track.obj
+	@echo ... Track.i
+	@echo ... Track.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... standard.obj
-	@echo ... standard.i
-	@echo ... standard.s
-	@echo ... surgeon.obj
-	@echo ... surgeon.i
-	@echo ... surgeon.s
+	@echo ... music.obj
+	@echo ... music.i
+	@echo ... music.s
 .PHONY : help
 
 
@@ -252,8 +252,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd D:\Programming\c++\25.4\cmake-build-debug
+	cd D:\Programming\c++\skill_box\cmake-build-debug
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd D:\Programming\c++\25.4\cmake-build-debug\src
+	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : cmake_check_build_system
 

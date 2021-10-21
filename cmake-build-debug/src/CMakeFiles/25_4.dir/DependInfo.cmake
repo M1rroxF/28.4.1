@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Programming/c++/25.4/src/main.cpp" "D:/Programming/c++/25.4/cmake-build-debug/src/CMakeFiles/25_4.dir/main.cpp.obj"
-  "D:/Programming/c++/25.4/src/standard.cpp" "D:/Programming/c++/25.4/cmake-build-debug/src/CMakeFiles/25_4.dir/standard.cpp.obj"
-  "D:/Programming/c++/25.4/src/surgeon.cpp" "D:/Programming/c++/25.4/cmake-build-debug/src/CMakeFiles/25_4.dir/surgeon.cpp.obj"
+  "D:/Programming/c++/skill_box/src/Track.cpp" "D:/Programming/c++/skill_box/cmake-build-debug/src/CMakeFiles/25_4.dir/Track.cpp.obj"
+  "D:/Programming/c++/skill_box/src/main.cpp" "D:/Programming/c++/skill_box/cmake-build-debug/src/CMakeFiles/25_4.dir/main.cpp.obj"
+  "D:/Programming/c++/skill_box/src/music.cpp" "D:/Programming/c++/skill_box/cmake-build-debug/src/CMakeFiles/25_4.dir/music.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

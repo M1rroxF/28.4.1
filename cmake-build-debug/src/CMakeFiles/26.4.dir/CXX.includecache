@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Phone.h
+vector
+-
+string
+-
+map
+-
+
+D:/Programming/c++/skill_box/src/main.cpp
+iostream
+-
+vector
+-
+fstream
+-
+string
+-
+cstdlib
+-
+map
+-
+ctime
+-
+iomanip
+-
+Phone.h
+D:/Programming/c++/skill_box/src/Phone.h
+

@@ -9,7 +9,33 @@
 
 using namespace std;
 
-int main()
-{
+#include "Phone.h"
 
+int main() {
+    Phone phone;
+    cout << "Enter first number\n";
+    phone.add(false);
+
+    string move;
+
+    do {
+        cout << "<";
+        cin >> move;
+
+        if (move == "add")
+        {
+            phone.add(true);
+        }
+        else if (move == "call")
+        {
+            phone.call();
+        }
+        else if (move == "sms")
+        {
+            phone.sms();
+        }
+        else {
+            phone.showInfo();
+        }
+    } while (move != "exit");
 }

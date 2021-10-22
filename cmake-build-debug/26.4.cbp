@@ -70,7 +70,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Programming/c++/skill_box/include/Phone.h">
+		<Unit filename="D:/Programming/c++/skill_box/include/Window.h">
 			<Option target="26.4"/>
 		</Unit>
 		<Unit filename="D:/Programming/c++/skill_box/src/main.cpp">

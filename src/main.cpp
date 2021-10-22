@@ -9,12 +9,23 @@
 
 using namespace std;
 
-#include "Phone.h"
+#include "Window.h"
 
 int main() {
-    Phone phone;
-    cout << "Enter first number\n";
-    phone.add(false);
+    Window window;
+
+    {
+        vector<int> pos(2);
+        vector<int> size(2);
+
+        cout << "Enter position x, y: ";
+        cin >> pos[0] >> pos[1];
+
+        cout << "Enter size x, y: ";
+        cin >> size[0] >> size[1];
+
+        window.init(size, pos);
+    }
 
     string move;
 
@@ -22,20 +33,17 @@ int main() {
         cout << "<";
         cin >> move;
 
-        if (move == "add")
+        if (move == "move")
         {
-            phone.add(true);
+            window.move();
         }
-        else if (move == "call")
+        else if (move == "resize")
         {
-            phone.call();
+            window.resize();
         }
-        else if (move == "sms")
+        else if (move == "display")
         {
-            phone.sms();
+            window.display();
         }
-        else {
-            phone.showInfo();
-        }
-    } while (move != "exit");
+    } while (move != "close");
 }

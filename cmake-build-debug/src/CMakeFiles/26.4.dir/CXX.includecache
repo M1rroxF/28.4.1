@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../include/Phone.h
+../include/Window.h
 vector
 -
 string
@@ -31,6 +31,6 @@ ctime
 -
 iomanip
 -
-Phone.h
-D:/Programming/c++/skill_box/src/Phone.h
+Window.h
+D:/Programming/c++/skill_box/src/Window.h
 

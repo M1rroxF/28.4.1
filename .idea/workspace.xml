@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="26.4" targetName="26.4" />
+      <config projectName="27.4" targetName="27.4" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,8 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7936be1b-8937-4d66-8c54-6a4fd449ba75" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/include/Home.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Tree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/26.4.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/26.4.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/26.4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/26.4.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/26.4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/26.4.pdb" afterDir="false" />
@@ -21,7 +29,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/26.4.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/26.4.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/26.4.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/26.4.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/26.4.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/26.4.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Phone.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Window.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Window.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
@@ -54,15 +63,28 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\c++\skill_box\include" />
+      <recent name="D:\Programming\c++\skill_box\include\Headlines" />
+      <recent name="D:\Programming\c++\skill_box" />
+      <recent name="D:\Programming\c++\skill_box\include\classes" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="26.4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="26.4" TARGET_NAME="26.4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="26.4" RUN_TARGET_NAME="26.4">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="27.4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="27.4" TARGET_NAME="27.4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="27.4" RUN_TARGET_NAME="27.4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -78,7 +100,11 @@
       <workItem from="1634840651054" duration="1730000" />
       <workItem from="1634899470344" duration="2769000" />
       <workItem from="1634905864739" duration="1505000" />
-      <workItem from="1634916447857" duration="4483000" />
+      <workItem from="1634916447857" duration="4935000" />
+      <workItem from="1634978361361" duration="1328000" />
+      <workItem from="1634983521826" duration="622000" />
+      <workItem from="1634999898273" duration="1023000" />
+      <workItem from="1635008802080" duration="4827000" />
     </task>
     <servers />
   </component>

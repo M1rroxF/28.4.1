@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/Home.h
+iostream
+-
+
 ../include/Tree.h
 vector
 -
@@ -17,6 +21,8 @@ cstdlib
 -
 cassert
 -
+Home.h
+../include/Home.h
 
 D:/Programming/c++/skill_box/src/main.cpp
 iostream

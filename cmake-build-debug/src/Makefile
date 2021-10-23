@@ -116,22 +116,22 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src\CMakeFiles\26.4.dir\rule:
+src\CMakeFiles\27.4.dir\rule:
 	cd D:\Programming\c++\skill_box\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\CMakeFiles\26.4.dir\rule
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\CMakeFiles\27.4.dir\rule
 	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-.PHONY : src\CMakeFiles\26.4.dir\rule
+.PHONY : src\CMakeFiles\27.4.dir\rule
 
 # Convenience name for target.
-26.4: src\CMakeFiles\26.4.dir\rule
-.PHONY : 26.4
+27.4: src\CMakeFiles\27.4.dir\rule
+.PHONY : 27.4
 
 # fast build rule for target.
-26.4\fast:
+27.4\fast:
 	cd D:\Programming\c++\skill_box\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\26.4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\26.4.dir\build
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\27.4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\27.4.dir\build
 	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-.PHONY : 26.4\fast
+.PHONY : 27.4\fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -139,7 +139,7 @@ main.obj: main.cpp.obj
 # target to build an object file
 main.cpp.obj:
 	cd D:\Programming\c++\skill_box\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\26.4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\26.4.dir\main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\27.4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\27.4.dir\main.cpp.obj
 	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : main.cpp.obj
 
@@ -149,7 +149,7 @@ main.i: main.cpp.i
 # target to preprocess a source file
 main.cpp.i:
 	cd D:\Programming\c++\skill_box\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\26.4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\26.4.dir\main.cpp.i
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\27.4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\27.4.dir\main.cpp.i
 	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : main.cpp.i
 
@@ -159,7 +159,7 @@ main.s: main.cpp.s
 # target to generate assembly for a file
 main.cpp.s:
 	cd D:\Programming\c++\skill_box\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\26.4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\26.4.dir\main.cpp.s
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\27.4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\27.4.dir\main.cpp.s
 	cd D:\Programming\c++\skill_box\cmake-build-debug\src
 .PHONY : main.cpp.s
 
@@ -171,7 +171,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 26.4
+	@echo ... 27.4
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

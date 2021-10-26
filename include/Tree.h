@@ -1,4 +1,5 @@
 #pragma once
+#include <utility>
 #include <vector>
 #include <string>
 #include <map>
@@ -7,76 +8,68 @@
 
 using namespace std;
 
-#include "Home.h"
-
 int random(int min, int max)
 {
     return rand() % (max - (min - 1)) + min;
 }
 
-class Tree
+
+
+class Branch
 {
-    vector<vector<vector<House>>> tree;
-
+    vector<Branch> children;
+    string elfName;
   public:
-    Tree()
+
+    void add()
     {
+        children.resize(5);
         for (int i = 0; i < 5; i++)
         {
-            cout << "Tree #" << i << endl;
-            vector<vector<House>> h1;
-            int count_big = random(3, 5);
-            for (int j = 0; j < count_big; j++)
+            int rand = random(3, 5);
+            children[i].children.resize(rand);
+            for (int j = 0; j < rand; j++)
             {
-                cout << "   Big #" << j << endl;
-                vector<House> h2;
-                int count_middle = random(2, 3);
-                for (int k = 0; k < count_middle; k++)
-                {
-                    cout << "       mid #" << k << endl;
-                    cout << "       ";
-                    h2.push_back(House());
-                }
-                h1.push_back(h2);
-            }
-            tree.push_back(h1);
-        }
-    }
-
-    void search()
-    {
-        cout << "Enter search name: ";
-        string name; cin >> name;
-
-        for (int i = 0; i < 5; i++)
-        {
-            for (int j = 0; j < tree[i].size(); j++)
-            {
-                for (int k = 0; k < tree[i][j].size(); k++)
-                {
-                    if (tree[i][j][k].name == name)
-                    {
-                        cout << "Tree #" << i << endl;
-                        cout << "Big #" << j << endl;
-                        cout << "Middle #" << k << endl;
-                        cout << "name: " << tree[i][j][k].name << endl;
-                    }
-                }
+                int rand1 = random(2, 3);
+                children[i].children[j].children.resize(rand1);
             }
         }
-    }
 
-    void ShowInfo()
-    {
         for (int i = 0; i < 5; i++)
         {
             cout << "tree #" << i << endl;
-            for (int j = 0; j < tree[i].size(); j++)
+            for (int j = 0; j < children[i].children.size(); j++)
             {
                 cout << "   big #" << j << endl;
-                for (int k = 0; k < tree[i][j].size(); k++)
+                cout << "   enter elf: ";
+                cin >> children[i].children[j].elfName;
+
+                for (int k = 0; k < children[i].children[j].children.size(); k++)
                 {
-                    cout << "       " << (tree[i][j][k].name != "" ? tree[i][j][k].name : "");
+                    cout << "       mid #" << k << endl;
+                    cout << "       enter elf: ";
+                    cin >> children[i].children[j].children[k].elfName;
+                }
+            }
+        }
+    }
+
+    void print()
+    {
+        for (int i = 0; i < children.size(); i++)
+        {
+            cout << "Tree #" << i << endl;
+            for (int j = 0; j < children[i].children.size(); j++)
+            {
+                cout << "   big #" << j << endl;
+                if (children[i].children[j].elfName != "None")
+                    cout << "   " << children[i].children[j].elfName << endl;
+
+                for (int k = 0; k < children[i].children[j].children.size(); k++)
+                {
+                    cout << "       mid #" << k << endl;
+                    if (children[i].children[j].children[k].elfName != "None")
+                        cout << "       " << children[i].children[j].children[k].elfName << endl;
                 }
             }
         }

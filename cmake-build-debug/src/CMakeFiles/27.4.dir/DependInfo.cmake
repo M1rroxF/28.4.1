@@ -8,14 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Programming/c++/skill_box/src/main.cpp" "D:/Programming/c++/skill_box/cmake-build-debug/src/CMakeFiles/27.4.dir/main.cpp.obj"
+  "D:/Programming/c++/27.4.1/src/main.cpp" "D:/Programming/c++/27.4.1/cmake-build-debug/src/CMakeFiles/27.4.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "D:/Programming/c++/skill_boxinclude/classes"
   )
 
 # The set of dependency files which are needed:

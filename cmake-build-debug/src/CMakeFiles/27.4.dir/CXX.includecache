@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../include/Home.h
-iostream
--
-
 ../include/Tree.h
+utility
+-
 vector
 -
 string
@@ -21,10 +19,8 @@ cstdlib
 -
 cassert
 -
-Home.h
-../include/Home.h
 
-D:/Programming/c++/skill_box/src/main.cpp
+D:/Programming/c++/27.4.1/src/main.cpp
 iostream
 -
 vector
@@ -42,5 +38,5 @@ ctime
 iomanip
 -
 Tree.h
-D:/Programming/c++/skill_box/src/Tree.h
+D:/Programming/c++/27.4.1/src/Tree.h
 

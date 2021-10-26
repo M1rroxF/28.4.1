@@ -13,6 +13,7 @@ using namespace std;
 
 int main()
 {
-    Tree tree = Tree();
-    tree.search();
+    Branch branch;
+    branch.add();
+    branch.print();
 }

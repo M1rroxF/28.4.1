@@ -46,10 +46,10 @@ RM = "D:\bestProgs\CLion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Programming\c++\skill_box
+CMAKE_SOURCE_DIR = D:\Programming\c++\27.4.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Programming\c++\skill_box\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Programming\c++\27.4.1\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,18 +76,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd D:\Programming\c++\skill_box\cmake-build-debug
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programming\c++\skill_box\cmake-build-debug\CMakeFiles D:\Programming\c++\skill_box\cmake-build-debug\src\\CMakeFiles\progress.marks
+	cd D:\Programming\c++\27.4.1\cmake-build-debug
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programming\c++\27.4.1\cmake-build-debug\CMakeFiles D:\Programming\c++\27.4.1\cmake-build-debug\src\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\all
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programming\c++\skill_box\cmake-build-debug\CMakeFiles 0
+	cd D:\Programming\c++\27.4.1\cmake-build-debug\src
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programming\c++\27.4.1\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
+	cd D:\Programming\c++\27.4.1\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\clean
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+	cd D:\Programming\c++\27.4.1\cmake-build-debug\src
 .PHONY : clean
 
 # The main clean target
@@ -96,30 +96,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd D:\Programming\c++\skill_box\cmake-build-debug
+	cd D:\Programming\c++\27.4.1\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\preinstall
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+	cd D:\Programming\c++\27.4.1\cmake-build-debug\src
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
+	cd D:\Programming\c++\27.4.1\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\preinstall
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+	cd D:\Programming\c++\27.4.1\cmake-build-debug\src
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
+	cd D:\Programming\c++\27.4.1\cmake-build-debug
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+	cd D:\Programming\c++\27.4.1\cmake-build-debug\src
 .PHONY : depend
 
 # Convenience name for target.
 src\CMakeFiles\27.4.dir\rule:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
+	cd D:\Programming\c++\27.4.1\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) src\CMakeFiles\27.4.dir\rule
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+	cd D:\Programming\c++\27.4.1\cmake-build-debug\src
 .PHONY : src\CMakeFiles\27.4.dir\rule
 
 # Convenience name for target.
@@ -128,9 +128,9 @@ src\CMakeFiles\27.4.dir\rule:
 
 # fast build rule for target.
 27.4\fast:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
+	cd D:\Programming\c++\27.4.1\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\27.4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\27.4.dir\build
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+	cd D:\Programming\c++\27.4.1\cmake-build-debug\src
 .PHONY : 27.4\fast
 
 main.obj: main.cpp.obj
@@ -138,9 +138,9 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
+	cd D:\Programming\c++\27.4.1\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\27.4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\27.4.dir\main.cpp.obj
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+	cd D:\Programming\c++\27.4.1\cmake-build-debug\src
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -148,9 +148,9 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
+	cd D:\Programming\c++\27.4.1\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\27.4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\27.4.dir\main.cpp.i
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+	cd D:\Programming\c++\27.4.1\cmake-build-debug\src
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -158,9 +158,9 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
+	cd D:\Programming\c++\27.4.1\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\27.4.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\27.4.dir\main.cpp.s
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+	cd D:\Programming\c++\27.4.1\cmake-build-debug\src
 .PHONY : main.cpp.s
 
 # Help Target
@@ -186,8 +186,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd D:\Programming\c++\skill_box\cmake-build-debug
+	cd D:\Programming\c++\27.4.1\cmake-build-debug
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd D:\Programming\c++\skill_box\cmake-build-debug\src
+	cd D:\Programming\c++\27.4.1\cmake-build-debug\src
 .PHONY : cmake_check_build_system
 

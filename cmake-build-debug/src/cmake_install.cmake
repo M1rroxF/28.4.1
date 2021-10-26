@@ -1,8 +1,8 @@
-# Install script for directory: D:/Programming/c++/skill_box/src
+# Install script for directory: D:/Programming/c++/27.4.1/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/26_4")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/27.4")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

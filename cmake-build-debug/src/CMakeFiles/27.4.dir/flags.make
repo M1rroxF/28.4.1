@@ -4,7 +4,7 @@
 # compile CXX with C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/bin/clang-cl.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = -ID:\Programming\c++\skill_box\include -ID:\Programming\c++\skill_boxinclude\classes
+CXX_INCLUDES = -ID:\Programming\c++\27.4.1\include
 
 CXX_FLAGS = -m32 /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
 
